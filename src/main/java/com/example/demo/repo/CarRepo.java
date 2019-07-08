@@ -11,6 +11,6 @@ public interface CarRepo extends CrudRepository<Car, Integer>{
 	ArrayList<Car> findByYear(int year);
 	ArrayList<Car> findByYearAndSpeed(int year, int speed);
 	/* @Query(value="SELECT...")
-	Car myquery(); */
+	Car myquery(); komentars turpinas*/
 	
 }
