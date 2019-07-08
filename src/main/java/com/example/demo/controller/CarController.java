@@ -60,4 +60,4 @@ public class CarController {
 		carServiceImpl.deleteCarByID(id);
 		return "redirect:/car/allcarsview";
 	}
-}
+}//komentars lai butu izmainas
